@@ -101,19 +101,80 @@ textarea {
    /* End Global Classes */
 
    /* Start Common Rules*/
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #777777;
+}
 
    /* End Common Rules */
 
    /* Start Header Style */
-
+.topnav-right {
+  list-style-type: none;
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-align: right;
+}
    /* End Header Style */
 
    /* Start Footer Style */
 
    /* End Footer Style */
+footer {
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
+.bottomnav {
+  color: #777777;
+  margin: 2px 10px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+div, nav {
+  border: 1px solid #f2f2f2;
+}
+p, li {
+  margin-left: 30px;
+  text-align: left;
+  color: #777777;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
    /* Start Index Main Style */
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
    /* End Index Main Style */
 
 
